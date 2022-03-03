@@ -13,6 +13,8 @@ Java development kit 8.0 or later is required
 After installing tassel, put your vcf file into your current working directory then run the following command to convert vcf format to hapmap
 
 ./run_pipeline.pl -Xms10g -Xmx40g -fork1 -vcf data.vcf -export outputfilename -exportType Hapmap
+
+Here, Xms10g and Xmx40g are intial and maximum memory sizes, respectively. Modify it according to the memory of your computer. 
  
  The output file will be a hapmap file. 
  
